@@ -1,0 +1,45 @@
+{
+  "id": "koloda-mnogih-veshej-deck-of-many-things",
+  "title": "Колода Многих Вещей [Deck of Many Things]",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "orcnog-card-viewer",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Классический вариант знаменитой колоды на 22 карты из «Книги многих вещей» (Book of Many Things).",
+  "authors": [
+    {
+      "name": "Лютень",
+      "discord": "lu_ten",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://module.fvtt.club/s/koloda-mnogih-veshej-json/download",
+  "download": "https://module.fvtt.club/s/koloda-mnogih-veshej-zip/download",
+  "packs": [
+    {
+      "name": "koloda-mnogih-veshej",
+      "label": "Колода Многих Вещей",
+      "path": "packs/koloda-mnogih-veshej",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+
+
+
+}
